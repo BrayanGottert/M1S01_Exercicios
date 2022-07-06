@@ -1,0 +1,87 @@
+head{
+    background-color: lightgray;
+}
+
+body{
+   background-color: lightgray;
+}
+
+h1 {
+    color: blue;
+    font-size: 20px;
+    font-family: Verdana;
+    text-align: center;
+    padding: 30px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url('https://wallpaperaccess.com/full/1268487.jpg');
+}
+
+body .description { /*[M1S01] Ex 5 - Imagem de fundo*/
+    text-align: center;
+}
+
+p{
+    font-size: 14px   
+}
+
+a button { /* [M1S01] Ex 4 - Links e bordas */
+    width: auto;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20%;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+    transition: 300ms;
+} 
+
+.main {
+    margin-top: 30px; 
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    align-items: end; 
+}
+
+.navbar img {
+    max-width: 50px;
+    align-items: start;
+    padding: 8px;
+}
+
+.footnote {
+    overflow:auto;
+    background-color: blue;
+    top: 10; 
+    bottom: 0px;
+    width: 100%;
+    align-items:start; 
+}
+
+.footnote p {
+    float: center;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration:solid;
+}
+

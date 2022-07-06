@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang=" 'pt-br">
+<head>
+    <meta charset = 'UTF-8' />
+    <meta name = 'viewport' content = "width = device-width, initial-scale = 1.0" />
+    <link rel="icon" href="./Aula02_imagemTeste.jpg">
+</head>
+
+<body>
+    <style> /* [M1S01] Ex 6 - Lado a lado */
+        .column {
+        float: left;
+        width: 33%;
+        padding: 5px;
+      }
+        .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    </style>
+    <div class = "row"> <!-- [M1S01] Ex 6 - Lado a lado -->
+        <div class = "column">
+            <img src= "./Aula02_imagemTeste.jpg" alt="sem imagem disponível" width = 100% />
+        </div>
+        <div class = "column">
+            <img src= "../Aula02_imagemTeste.jpg" alt="sem imagem disponível" width = 100% />   
+        </div>
+        <div class = "column">
+            <img src= "https://www.meme-arsenal.com/memes/cf8f4ab909ecd5b7840122214ad22e29.jpg" alt="sem imagem disponível" width = 100%  />
+        </div>
+    </div>
+    <img src= "./Aula02_imagemTeste.jpg" alt="sem imagem disponível" width = "175" height="135" /> <br>
+    <img src= "../Aula02_imagemTeste.jpg" alt="sem imagem disponível" width = "350" height="270" /> <br>
+    <img src= "https://www.meme-arsenal.com/memes/cf8f4ab909ecd5b7840122214ad22e29.jpg" alt="sem imagem disponível" width = "700" height="540" /> <br>
+</body>
+</html>
